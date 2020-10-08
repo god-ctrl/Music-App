@@ -1,0 +1,389 @@
+body{
+	background-color: rgb(14,14,14);
+}
+.round_border{
+	border-radius: 50%;
+}
+.common-text{
+	color: rgb(146,148,158);
+	font-size: 1rem;
+}
+.common-heading{
+	font-weight: 800;
+	font-size: 1.2rem;
+	color: white;
+	margin-bottom: 5vh;
+}
+#Page{
+	position: relative;
+	height: 100%;
+	left:5%;
+	width:90%;
+	margin-top:-9px;
+	padding: 0px;
+	background-color: rgb(12,16,39);
+}
+#nav{
+	position: fixed;
+    left:10%;
+    right:10%;
+	height:20vh;
+	border:none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	z-index: 1;
+	background-color: rgb(12,16,39);
+	box-shadow: 0px 0px 10px 5px rgb(12,16,39);
+}
+#nav #logo{
+	width: 25%;
+	height: 80%;
+	border:none;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+#nav #search{
+	width: 40%;
+	height: 80%;
+	border:none;
+	display: flex;
+	justify-content: space-between;
+	/*overflow:hidden;*/
+	
+
+}
+#nav #search div{
+	width: 10%;
+	height: 60%;
+	border:none;
+	position: relative;
+}
+#nav #search div img{
+	position: absolute;
+	top:0px;
+	height:90%;
+	width:90%;
+}
+#nav #search #bell img{
+	position: absolute;
+	top:0px;
+	height:90%;
+	width:90%;
+	border-radius: 50%;
+	
+}
+
+#nav #search #searchText{
+	width:60%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+	top:0px;
+}
+#nav #search #searchText input{
+	position: absolute;
+	padding: .5rem;
+	top: 22%;
+	background-color: rgb(18,25,62);
+	/*background-color: white;*/
+	border-radius: 7px;
+	margin: 0px;
+	
+	padding: 0px;
+	border:none;
+	width:100%;
+	font-size: 1rem;
+}
+
+#nav #logo #logoImg{
+	
+	width:30%;
+
+}
+#nav #logo #Favorites{
+	padding-top:5%;
+}
+#nav #logo #logoImg img{
+
+
+	max-width:100%;
+	max-height:100%;
+	/*border-radius: 50%;*/
+	box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.2);
+	opacity: 0.5;
+}
+#nav #logo #logoImg img:hover{
+	box-shadow: 0px 0px 10px 5px rgba(93,29,229,69%);
+}
+#content{
+	position: relative;
+	top:20.5vh;
+	border:none;
+
+}
+#content #main{
+	position: relative;
+	display: inline-block;
+	width: 60%;
+	left:3%;
+	border:none;
+	height:auto;
+}
+#content #queue{
+	position: relative;
+	display: inline-block;
+	width: 31%;
+	left:3%;
+	border:none;
+	height:200px;
+	margin-left:3%;
+}
+#content #main #genere{
+	width:100%;
+	height:auto;
+	padding:100px 0;
+}
+#content #main #genere img{
+	height:28vh;
+	width:32%;
+    border-radius: 4px;
+	margin-right:3px;
+	box-shadow: 0px 0px 2px 2px white;
+}
+#content #main #genere img:hover{
+	transform: scale(1.8);
+	z-index: 1;
+	transition: all 900ms;
+
+}
+#content #main #Latest-Release #holder{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width:80%;
+	border:none;
+	margin-bottom: 30px;
+}
+#content #main #Latest-Release #holder #box{
+    width: 48%;
+    border:none;
+    height:70px;
+    margin-bottom:10px;
+}
+#content #main #Latest-Release #holder #box #info{
+	display: inline-block;
+    position: relative;
+    height:100%;
+    width:68%;
+}
+#content #main #Latest-Release #holder #box #photo{
+    width:30%;
+    display: inline-block;
+    height: 100%;
+}
+#content #main #Latest-Release #holder #box #photo img{
+	width: 100%;
+	height: 100%;
+}
+#content #main #Latest-Release #holder #box #info #heading{
+	position: absolute;
+	left:5%;
+	top:30%;
+	color: white;
+	font-weight: 700;
+	font-size:;
+}
+#content #main #Latest-Release #holder #box #info #timing{
+	position: absolute;
+	left:5%;
+	top:60%;
+	color:white;
+	font-weight:400;
+}
+#content #main #Popular-Artists #holder{
+	display: flex;
+	box-sizing: border-box;
+	padding:5vh 0;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 150px;
+	border:none;
+	justify-content: space-between;
+}
+#content #main #Popular-Artists #holder #photo{
+    width: 15%;
+    height: 100%;
+}
+#content #main #Popular-Artists #holder #photo #pic{
+	height: 80%;
+	width:100%;
+}
+#content #main #Popular-Artists #holder #photo #name{
+	margin:2px auto;
+	color: white;
+	width:100%;
+	height: 20%;
+	text-align: center;
+
+}
+#content #main #Popular-Artists #holder #photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#content #main #gen{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding:10px;
+	background-color: rgb(16,22,66);
+}
+#content #main #gen #pic{
+	position: relative;
+}
+#content #main #gen #pic #ima{
+	width:70px;
+	height:70px;
+	overflow: hidden;
+	border-radius: 50%;	
+}
+#content #main #gen #pic #ima img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transition: all 800ms ease-in-out;
+}
+#content #main #gen #pic #hov{
+    position: absolute;
+    color: white;
+    top:30px;
+    left:25px;
+    visibility: hidden;
+    transition: all 800ms ease-in-out;
+    /*overflow: hidden;*/
+}
+#content #main #gen #pic:hover #hov{
+	visibility:visible;
+	
+}
+#content #main #gen #pic:hover #ima img{
+	transform: scale(1.2);
+	
+}
+/*/////////*/
+#content #main #type{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding:10px;
+	background-color: rgb(16,22,66);
+}
+#content #main #type #holder{
+	position: relative;
+}
+#content #main #type #holder #pic{
+	width:185px;
+	height:110px;
+	overflow: hidden;
+	/*border-radius: 50%;*/	
+}
+#content #main #type #holder #pic img{
+	width: 100%;
+	height: 100%;
+	/*border-radius: 50%;*/
+	transition: all 800ms ease-in-out;
+}
+#content #main #type #holder #hov{
+    position: absolute;
+    color: white;
+    top:90px;
+    left:70px;
+    visibility: hidden;
+    transition: all 800ms ease-in-out;
+    /*overflow: hidden;*/
+}
+#content #main #type:hover #holder #hov{
+	visibility:visible;
+	
+}
+#content #main #type #holder:hover #pic img{
+	transform: scale(1.2);
+}
+#content #main #Latest-English{
+	width: 100%;
+}
+#content #main #Latest-English #pr{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#content #main #Latest-English #pr #holder{
+	height:120px;
+	width:70px;
+
+}
+#content #main #Latest-English #pr #holder #pic{
+	height:70%;
+	width: 100%;
+   
+}
+#content #main >div{
+	margin-bottom:10vh;
+}
+#content #main #Latest-English #pr #holder #text{
+	height:30%;
+	width: 100%;
+	color: white;
+	 text-align: center;
+}
+#content #main #Latest-English #pr #holder #pic img{
+	height: 100%;
+	width: 100%;
+
+}
+#content #main #Latest-Hindi{
+	width: 100%;
+}
+#content #main #Latest-Hindi #pr{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#content #main #Latest-Hindi #pr #holder{
+	height:120px;
+	width:70px;
+
+}
+#content #main #Latest-Hindi #pr #holder #pic{
+	height:70%;
+	width: 100%;
+   
+}
+#content #main #Latest-Hindi #pr #holder #text{
+	height:30%;
+	width: 100%;
+	color: white;
+	 text-align: center;
+}
+#content #main #Latest-Hindi #pr #holder #pic img{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+
+
+
