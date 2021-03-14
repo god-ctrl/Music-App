@@ -40,7 +40,7 @@ This is a template for my music  website.It is currently static,further work wil
 #### Installation
 
 - Download the repository
-- run resume.html
+- run musicPlayer.html in musicPlayer folder
 
 
 
